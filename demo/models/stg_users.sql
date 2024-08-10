@@ -4,4 +4,6 @@
 SELECT
     u.id,
     u.DisplayName
-from dbo.users u
+from 
+    --dbo.users u
+    {{source('users', 'users') }} u

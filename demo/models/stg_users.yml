@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: users
+    database: StackOverflowMini  
+    schema: dbo  
+    tables:
+      - name: users
