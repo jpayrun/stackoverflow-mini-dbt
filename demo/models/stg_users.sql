@@ -1,4 +1,6 @@
 
+{{config(materialized='view')}}
+
 SELECT
     u.id UserId,
     u.DisplayName

@@ -1,4 +1,6 @@
 
+{{config(materialized='view')}}
+
 SELECT
     p.Id,
     p.OwnerUserId,
