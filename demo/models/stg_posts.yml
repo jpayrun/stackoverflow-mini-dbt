@@ -1,0 +1,15 @@
+models:
+  - name: stg_posts
+    columns:
+      - name: Id
+        description: Post Id
+        data_type: int
+        quote: true
+      - name: OwnerUserId
+        description: User Id
+        data_type: int
+        quote: true
+      - name: CreationDate
+        description: Creation data of the post
+        data_type: datetime
+        quote: true
