@@ -1,3 +1,5 @@
+{{config(materialized='view')}}
+
 with UserPosts as (
     SELECT
         p.Id,
