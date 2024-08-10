@@ -2,6 +2,6 @@
 {{config(materialized='view')}}
 
 SELECT
-    u.id UserId,
+    u.id,
     u.DisplayName
 from dbo.users u
