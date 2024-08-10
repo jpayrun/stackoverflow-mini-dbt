@@ -1,3 +1,13 @@
+
+version: 2
+
+sources:
+  - name: posts
+    database: StackOverflowMini  
+    schema: dbo  
+    tables:
+      - name: posts
+
 models:
   - name: stg_posts
     columns:
